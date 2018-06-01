@@ -1,3 +1,4 @@
+BEGIN { push @INC, '.'; }
 use inc::Module::Package 'Ingy:modern 0.17';
 
 # The default module 'lib/Module/Package.pm' has to be very strict
